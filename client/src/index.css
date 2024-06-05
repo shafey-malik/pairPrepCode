@@ -1,0 +1,379 @@
+/* src/index.css */
+
+/* Replace 'output.css' with the actual filename if you used a different name */
+@keyframes move {
+  from {
+    color: #001D44;
+
+  }
+
+  to {
+    color: #001D44;
+    background-color: #ffffff;
+  }
+}
+
+
+
+body {
+
+  margin: 0;
+
+
+  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-weight: bold;
+}
+
+
+
+
+#load {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 90;
+  background-color: rgb(0, 0, 58);
+  font-size: 50px;
+  color: #f2f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#load h1 {
+  border-radius: 300px;
+  padding: 150px;
+  animation-name: move;
+  animation-duration: 1.5s;
+}
+
+
+.name {
+  color: rgb(0, 0, 0);
+
+}
+
+.slot:hover {
+  cursor: pointer;
+  background-color: #46ff6ba4;
+  color: #ffffff;
+}
+
+#heading {
+  color: rgb(241, 237, 231);
+  margin: 0cm;
+  background-color: #001D44;
+  margin-top: 20px;
+
+
+}
+
+.top {
+
+  background: #001D44;
+
+  height: 12vh;
+}
+
+.bodyy {
+  background-color: rgb(255, 255, 255);
+  ;
+  display: flex;
+}
+
+.left {
+  background: rgb(255, 255, 255);
+  width: 25vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  max-width: 25vw;
+  justify-content: center;
+}
+
+.mid {
+  background: #022e5d;
+  width: 50vw;
+  max-width: 50vw;
+}
+
+.right {
+  background: rgb(255, 255, 255);
+  max-width: 25vw;
+  width: 25vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.icon {
+  width: 5.5vw;
+
+  padding: 0;
+}
+
+.title {
+  width: 8.1vw;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.logo {
+
+  padding-left: 41.5vw;
+
+}
+
+.lefty {
+  float: left;
+
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border-color: white;
+  background: whitesmoke;
+  padding: 5px;
+  padding-right: 11px;
+  margin-top: 10px;
+  margin-left: 39px;
+}
+
+.not {
+  border-radius: 25px;
+  width: 230px;
+}
+
+.google {
+  width: 20px;
+  padding-top: 5px;
+  margin: 5px;
+}
+
+.logout {
+  display: flex;
+  background-color: rgb(251, 251, 251);
+  border-width: 1px;
+  color: rgb(173, 0, 0);
+  justify-content: center;
+  border-radius: 4px;
+  padding: 3px;
+  top: 27vh;
+  font-weight: bold;
+  position: relative;
+}
+
+.signout {
+  width: 15px;
+
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px;
+  border-radius: 8px;
+  border-color: #ffffff;
+
+}
+
+.name {
+  margin-top: 25px;
+
+}
+
+
+/* slot is single line of list*/
+
+.slot {
+  padding: 10px;
+  margin: 50px;
+  width: 550px;
+  background: #f2f6ff;
+  color: #000000;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.back {
+  height: 25px;
+  display: block;
+  margin-top: 15px;
+  background-color: rgba(134, 0, 0, 0.579);
+  color: #ffffff;
+  margin-left: 50px;
+  border-radius: 4px;
+
+  border-color: #ffffff;
+}
+
+/* right*/
+.pre {
+  padding: 50px;
+  background-color: #001D44;
+}
+
+.post {
+  background-color: rgb(255, 255, 255);
+
+  width: 25vw;
+  max-width: 25vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ucode {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 25px;
+  margin-top: 60px;
+  background-color: #001D44;
+  color: white;
+  text-align: center;
+  text-align: center;
+}
+
+#window {
+  display: flexbox;
+}
+
+#box2 {
+  color: red;
+  background-color: #001D44;
+
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#fresh {
+  height: 25px;
+  display: block;
+  margin-top: 15px;
+  background-color: rgba(7, 62, 2, 0.753);
+  color: #ffffff;
+  border-radius: 4px;
+  border-color: #ffffff;
+}
+
+#answer {
+  height: 25px;
+  display: block;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+
+  margin-left: 5px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(8, 104, 5, 0.536);
+}
+
+#smallBox {
+  border-radius: 5px;
+  margin: 25px;
+  background-color: #001D44;
+  color: #ffffff;
+  font-size: larger;
+  text-align: center;
+}
+
+
+
+#reportSlot {
+  text-align: center;
+  font-weight: bolder;
+  background: #ffffff;
+  color: #000000;
+  padding: 5px;
+
+  border-radius: 2px;
+}
+
+#card {
+  background-color: rgb(0, 7, 65);
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+#rightTop {
+  display: flex;
+  width: 300px;
+  margin: 5px;
+  justify-content: space-evenly;
+  padding: 2px
+}
+
+#save {
+  background-color: #00e636ac;
+  color: rgb(255, 255, 255);
+  border-color: #000000;
+  padding: 5px;
+  border: #000000 1px;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+#sheetsDisplay {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+#heading {
+  font-size: 55px;
+
+
+
+  border-radius: 44px;
+}
+
+#back {
+  background-color: #ffffff;
+  color: #580000;
+  border-color: #697caa;
+  border-radius: 5px;
+  border: #000000 1px;
+}
+
+#back:hover {
+  background-color: #870000;
+  color: rgb(255, 255, 255);
+}
+
+.check {
+  background-color: chartreuse;
+  width: 50px;
+}
+
+.check:hover {
+  background-color: chartreuse;
+  color: chartreuse;
+}
+
+.femail {
+
+  border-width: 0cap;
+
+  border-radius: 5px;
+  padding: 5px;
+}
